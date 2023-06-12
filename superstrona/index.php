@@ -1,14 +1,14 @@
-<body>
-  <div class="container">
-</br></br></br></br>
 <?php
-  include 'elements/header.php';
+ include 'elements/header.php';
+ 
 
- if(isset($_COOKIE["login"])){
+if(isset($_COOKIE["login"])){
     echo "<h1> Witaj, ".$_COOKIE["email"]." </h1>";
     echo "<a href='logout.php'>Wyloguj</a>";
 }
+
 ?>
+
 <div class="container">
   <div class="row ">
 
